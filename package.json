@@ -1,0 +1,23 @@
+{
+  "name": "@lataepat/budgetbkk70-core",
+  "version": "0.1.0",
+  "description": "Budget-data utilities extracted from Bangkok's BudgetBKK70 civic project: reconciled charts, record merging, Thai-preserving JSON transport, and district metrics.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Thanapat Thiankrachang",
+  "homepage": "https://budgetbkk70.lataepat.com",
+  "repository": { "type": "git", "url": "https://github.com/lataepat/budgetbkk70-core.git" },
+  "bugs": { "url": "https://github.com/lataepat/budgetbkk70-core/issues" },
+  "engines": { "node": ">=22" },
+  "exports": { ".": { "types": "./src/index.d.mts", "import": "./src/index.mjs" } },
+  "types": "./src/index.d.mts",
+  "files": ["src", "README.md", "LICENSE", "docs", "CONTRIBUTING.md", "SECURITY.md", "MAINTAINERS.md", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "example": "node examples/basic.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "verify:source": "node scripts/verify-source-data.mjs",
+    "prepack": "npm test && npm run check:release"
+  },
+  "keywords": ["civic-tech", "open-budget", "bangkok", "thai", "budget-data", "data-integrity"]
+}
