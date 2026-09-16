@@ -1,0 +1,44 @@
+{
+  "prepared_on": "2026-09-16",
+  "source_project": "BudgetBKK70 / งบใกล้บ้าน",
+  "live_site": "https://budgetbkk70.lataepat.com",
+  "source_commit": "b5afe1a29e1a176246c906a2448884482c43fbb4",
+  "source_commit_date": "2026-09-08",
+  "recorded_site_version": 81,
+  "modules": [
+    {
+      "original_path": "app/budget-allocation.mjs",
+      "released_path": "src/budget-allocation.mjs",
+      "source_sha256": "59853d2f07ff0cc1e762548976bb064586d500e670de7f1e160683a75c331c59",
+      "release_sha256": "59853d2f07ff0cc1e762548976bb064586d500e670de7f1e160683a75c331c59",
+      "changed": false
+    },
+    {
+      "original_path": "app/budget-record-merge.mjs",
+      "released_path": "src/budget-record-merge.mjs",
+      "source_sha256": "412663aaec1a97bb0aeee8ae4e07b09ac8b1c6ebd9b5e19e22589db0115ddf76",
+      "release_sha256": "fdb56e24b23d24f04e978dee3b7d8afc0afd9772ebd6bbed748a53d8a7328881",
+      "changed": true
+    },
+    {
+      "original_path": "app/budget-packed-json.mjs",
+      "released_path": "src/budget-packed-json.mjs",
+      "source_sha256": "b420eb3ef202cf40e0feb863a0172c9451938eca1d39515480d45e62bd19d6e8",
+      "release_sha256": "797897ea47349bc2442f9eab80d417f127410ff1b1bcf21cd82ec5667c724d9c",
+      "changed": true
+    },
+    {
+      "original_path": "app/district-map-model.mjs",
+      "released_path": "src/district-map-model.mjs",
+      "source_sha256": "141e9c4a1eaa421077b310d1c5aacdd2fe4267f8a7011f721d6782ddbbbea20f",
+      "release_sha256": "141e9c4a1eaa421077b310d1c5aacdd2fe4267f8a7011f721d6782ddbbbea20f",
+      "changed": false
+    }
+  ],
+  "scope": {
+    "district_offices": 50,
+    "central_budget_units": 22,
+    "registered_source_documents": 78
+  },
+  "status": "Standalone release candidate; public repository and application submission not yet completed."
+}
